@@ -54,3 +54,6 @@ Route::controller(App\Http\Controllers\categoryController::class)->group(functio
      Route::delete('/category/{id}','destroy')->name('category.destroy');
      Route::put('/category','update')->name('category.update');
 });
+Route::controller(App\Http\Controllers\userController::class)->group(function(){
+    Route::get('/user','index');
+});
