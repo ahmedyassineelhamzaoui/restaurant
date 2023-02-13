@@ -23,9 +23,7 @@
 </div>
 </div>
 @endif
-{{-- @foreach ($plats as $plat)
-{{dd($plats)}}
-@endforeach --}}
+
 
 
 
