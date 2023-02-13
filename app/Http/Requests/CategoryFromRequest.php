@@ -13,7 +13,7 @@ class CategoryFromRequest extends FormRequest
      */
     public function authorize()
     {
-        return false;
+        return true;
     }
 
     /**
@@ -24,7 +24,10 @@ class CategoryFromRequest extends FormRequest
     public function rules()
     {
         return [
-            //
+            'name_category'=>[
+                'required',
+                'max:50'
+            ]
         ];
     }
 }
