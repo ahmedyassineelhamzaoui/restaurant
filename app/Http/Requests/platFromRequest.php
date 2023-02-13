@@ -13,7 +13,7 @@ class platFromRequest extends FormRequest
      */
     public function authorize()
     {
-        return false;
+        return true;
     }
 
     /**
@@ -24,7 +24,13 @@ class platFromRequest extends FormRequest
     public function rules()
     {
         return [
-            //
+            'plat_name'=>[
+                'required',
+                'max:255'
+            ],
+            'plat_descreption'=>[
+                'required',
+            ]
         ];
     }
 }
