@@ -55,5 +55,5 @@ Route::controller(App\Http\Controllers\categoryController::class)->group(functio
      Route::put('/category','update')->name('category.update');
 });
 Route::controller(App\Http\Controllers\userController::class)->group(function(){
-    Route::get('/user','index');
+    Route::get('/users','index');
 });

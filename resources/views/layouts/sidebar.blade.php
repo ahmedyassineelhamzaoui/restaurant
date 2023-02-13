@@ -17,7 +17,7 @@
         <ul class="list-content1">
             <li><a href="{{ url('category')}}"><i class="fa-solid fa-table-columns"></i><span class="words">Categories</span></a></li>
             <li><a href="{{ url('dashboard')}}"><i class="fa-solid fa-plate-wheat"></i><span  class="words">Dishes</span></a></li>
-            <li><a href="users"><i class="fa-solid fa-users"></i><span  class="words">Users</span></a></li>
+            <li><a href="{{ url('users')}}"><i class="fa-solid fa-users"></i><span  class="words">Users</span></a></li>
             <li><a href="{{route('profile.edit')}}" class="cursor-pointer"  ><i class="fa-solid fa-address-card"></i><span class="words">Profile</span></a></li>
             
             <li>
