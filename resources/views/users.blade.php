@@ -67,6 +67,7 @@
         </table>
         <div class="flex items-center justify-center ">
             <div class="flex justify-center my-2">
+                {{ $users->links() }}
             </div> 
         </div>  
     </div>

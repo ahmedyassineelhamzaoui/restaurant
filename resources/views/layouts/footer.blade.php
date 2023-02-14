@@ -1,7 +1,7 @@
 <footer id="contact" class="mt-32 w-full bg-black py-4  grid row xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4 px-4">
     <div class=" h-full flex justify-center items-center">
       <div class="">
-        <h1 class="font-bold text-lg text-center text-purple-500">Blog<span class="text-blue-400">Post</span></h1>
+        <h1 class="font-bold text-lg text-center text-red-500">Foo<span class="text-yellow-400">dy</span></h1>
         <p class="text-gray-600">
         </p>
         <p class="font-sans text-white text-center">copyright &copy Ahmed Yassin All right reserved 2023 </p>
